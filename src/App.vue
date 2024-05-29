@@ -1,10 +1,14 @@
 <script setup>
 
 import ProductCard from './components/ProductCard.vue'
+// import SideBar from './components/SideBar.vue';
+import CartCard from './components/CartCard.vue';
 
 </script>
 
 <template>
+  <CartCard/>
+  <!-- <SideBar/> -->
   <header  class=" h-20 w-screen text-black flex justify-between items-center">
     <div class="flex space-x-4 ">
             <img class="ml-4" src="@/assets/icon-menu.svg" alt="burger" />
