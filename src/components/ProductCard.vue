@@ -3,24 +3,24 @@
 
 <template>
     
-    <div class="   flex justify-between items-center bg-[url('@/assets/image-product-1-thumbnail.jpg')] h-64 w-full bg-cover bg-center md:invisible ">
+    <!-- <div class="   flex justify-between items-center bg-[url('@/assets/image-product-1-thumbnail.jpg')] h-64 w-full bg-cover bg-center md:invisible ">
         <img class=" h-8 w-8 rounded-full ml-4 bg-white" src="@/assets/icon-previous.svg" alt="previous">
         <img class=" h-8 w-8 rounded-full mr-4 bg-white" src="@/assets/icon-next.svg" alt="next">
-    </div>
+    </div> -->
 
-<div class="flex  space-x-0  h-screen w-screen px-44 ">
- <div class="">
-   <img class="h-96 w-96 rounded-lg " src="@/assets/image-product-3.jpg" alt="">
-   <div class="flex">
-       <img class="h-14 w-14 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
-       <img class="h-14 w-14 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
-       <img class="h-14 w-14 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
-       <img class="h-14 w-14 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+<div class=" md:flex md:space-x-4  md:h-screen md:w-3/4   md:mx-auto ">
+ <div class="W-full">
+   <img class="h-96 w-3/4 rounded-lg " src="@/assets/image-product-3.jpg" alt="">
+   <div class="flex space-x-4 mt-8 ">
+       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
     
    </div>
  </div>
 <div class="">
-    <div class="mx-8 space-y-4 my-6 ">
+    <div class="mx-8 md:w-96 space-y-4 my-6 ">
         <h2 class="text-orange-500 text-lg">SNEAKER COMPANY</h2>
         <h1 class="text-3xl text-black">Fall Limited Edition Sneakers</h1>
         <p class="text-gray-500">These low-profile sneakers are you perfect casual wear companion.Featuring a durable outer
@@ -48,6 +48,7 @@
 </div>
 
 </div>
+
 
 
 

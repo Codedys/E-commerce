@@ -9,11 +9,14 @@ import CartCard from './components/CartCard.vue';
 <template>
   <!-- <CartCard/> -->
   <!-- <SideBar/> -->
-  <header  class=" h-20 w-screen text-black flex justify-between items-center md:px-24 ">
-    <div class="flex space-x-4 md: space-x-10 ">
-            <img class="ml-4 md:invisible" src="@/assets/icon-menu.svg " alt="burger" />
+  <header  class=" h-20 w-screen text-black flex justify-between items-center md:px-10 ">
+    <div class="flex space-x-4 md:space-x-6 ">
+             <!-- section to be commmented -->
+            <!-- <img class="ml-4 md:invisible" src="@/assets/icon-menu.svg " alt="burger" /> -->
             <img class="" src="@/assets/logo.svg" alt="logo"/>
-            <ul class=" text-gray-500 ml-16 flex space-x-4">
+
+               <!-- section to be commented -->
+            <ul class=" invisible md:visible text-gray-500 ml-4 flex space-x-6">
               <li >Collection</li>
               <li>Men</li>
               <li>Women</li>
@@ -27,7 +30,8 @@ import CartCard from './components/CartCard.vue';
             <img class="h-8 w-10 " src="@/assets/image-avatar.png" alt="avatar">
     </div> 
   </header>
-  <hr class="invisible bg-gray-200 md:visible ml-40 mr-24" >
+  <!-- another section to be commented -->
+  <hr class="invisible bg-gray-200 md:visible ml-11 mr-16 mt-4" >
   <main class="mt-4">
     <ProductCard/>
   </main>
