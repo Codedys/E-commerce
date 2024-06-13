@@ -8,14 +8,14 @@
         <img class=" h-8 w-8 rounded-full mr-4 bg-white" src="@/assets/icon-next.svg" alt="next">
     </div> -->
 
-<div class=" md:flex md:space-x-4  md:h-screen md:w-3/4   md:mx-auto ">
- <div class="W-full">
-   <img class="h-96 w-3/4 rounded-lg " src="@/assets/image-product-3.jpg" alt="">
+<div class=" md:flex md:w-full md:h-full md:justify-center md:space-x-8 ">
+ <div class="ml-2 ">
+   <img class="h-96 w-96 rounded-lg " src="@/assets/image-product-3.jpg" alt="">
    <div class="flex space-x-4 mt-8 ">
-       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
-       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
-       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
-       <img class="h-16 w-16 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-20 w-20 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-20 w-20 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-20 w-20 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
+       <img class="h-20 w-20 rounded-lg" src="@/assets/image-product-1-thumbnail.jpg" alt="">
     
    </div>
  </div>
@@ -34,13 +34,13 @@
         </div>
         <div class="text-2xl text-gray-400"> $250.00</div>
     </div>
-    <div>
-    <div class=" flex items-center h-12 rounded-lg bg-gray-100 mt-6  justify-between mx-8"> 
+    <div class="md:flex">
+    <div class=" flex items-center h-12 rounded-lg  bg-gray-100 mt-6  justify-between mx-8  md:w-48"> 
         <img class=" ml-4 h-1 w-4 " src="@/assets/icon-minus.svg" alt="">
         <span class="text-lg">0</span>
         <img  class=" mr-4 h-3 w-3"   src="@/assets/icon-plus.svg" alt="">
     </div>
-      <div class=" text-white mt-3 mb-4 flex items-center justify-center space-x-3 h-12 bg-orange-500 rounded-lg mx-8">
+      <div class=" text-white mt-3 mb-4 flex items-center justify-center space-x-3 h-12  bg-orange-500 rounded-lg mx-8 md:w-48 md:mt-6">
         <img class="fill-current text-white" src="@/assets/icon-cart.svg" alt="cat">
         <p>Add to cart</p>
       </div>
