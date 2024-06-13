@@ -2,13 +2,15 @@
 
 import ProductCard from './components/ProductCard.vue'
 // import SideBar from './components/SideBar.vue';
-import CartCard from './components/CartCard.vue';
+// import CartCard from './components/CartCard.vue';
+import ProductPopup from './components/ProductPopup.vue'
 
 </script>
 
 <template>
   <!-- <CartCard/> -->
   <!-- <SideBar/> -->
+   <ProductPopup/>
   <header  class=" h-20 w-screen text-black flex justify-between items-center md:px-10 ">
     <div class="flex space-x-4 md:space-x-6 ">
              <!-- section to be commmented -->
